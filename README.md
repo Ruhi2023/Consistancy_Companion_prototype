@@ -84,7 +84,8 @@ Your data is persisted across sessions. Even if you close the program or shut do
      ```bash
      streamlit run app.py
      ```
-
+4. **Important**
+      - Make sure to replace the connecting function crediantials with your root user and password
 ---
 
 ## Usage Instructions
@@ -98,6 +99,7 @@ Your data is persisted across sessions. Even if you close the program or shut do
      streamlit run app.py
      ```
    - Ensure your database credentials and connection are correctly set in the `Consistency_tables.py` file.
+   - **Tip:** you can use the windows task scheduler to schedule it's runs.
 
 3. **Interacting with the Companion**
    - Take tests to reflect on your learning.
