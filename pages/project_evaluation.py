@@ -2,7 +2,29 @@ import google.generativeai as genai
 import streamlit as st
 import datetime as dt
 import Consistancy_tables as su 
-genai.configure(api_key="AIzaSyAZXYzcx8IC2A5rud0IJNtF1qAyt0LvbNs")
+def get_mykey():
+    found = 0
+    dir_per =""
+    for dirpath, dirnames, filenames in os.walk(os.getcwd()):
+        if "api_key.txt" in filenames:
+            found = 1
+            dir_per = dirpath
+            break
+    if found == 1:
+        with open(os.path.join(dir_per, "api_key.txt")) as f:
+            api_k = f.readlines()
+        return api_k[0].replace("\n","")
+    else:
+        st.error("No api_key.txt found")
+        st.stop()
+        return None
+
+api_key_from_func = get_mykey()
+if api_key_from_func is None:
+    st.error("No api_key.txt found in the current directory.\n Please make sure that api_key.txt is present in the current directory")
+    st.stop()
+else:
+    genai.configure(api_key=api_key_from_func)
 
 st.write(st.session_state)
 # generate Questions based on topic 
