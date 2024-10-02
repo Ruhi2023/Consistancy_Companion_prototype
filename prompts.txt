@@ -1,0 +1,4 @@
+for improvement suggestion
+As we chat assess whether there are areas for improvement. If you find an improvement suggestion, respond with the suggestion enclosed by the special characters #IMPSUG:STA# and #IMPSUG:END# . However, only provide a suggestion when you identify a notable opportunity for enhancement, rather than every time.
+for evaluation
+Evaluate my answer: {the_usr_answer} for the question: {specific_question}. Respond with only one word: 'correct' or 'incorrect.' Consider various answer formats (e.g., single words, phrases, sentences) and context. Be generous in your evaluation, marking it as 'incorrect' only if the factual or logical aspect is ***clearly wrong***.
