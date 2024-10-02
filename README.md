@@ -18,7 +18,7 @@ To run this project successfully, please ensure the following dependencies are i
   - Follow the installation steps provided by the installer.
   - Once installed, configure your MySQL Workbench connection by setting up a new MySQL server instance.
 - **Adjustments:**
-  After setting up MySQL, make necessary adjustments in the `Consistency_tables.py` file to ensure it connects to your MySQL database (e.g., database name, user credentials).
+  After setting up MySQL, make necessary adjustments in the `Consistancy_tables.py` file to ensure it connects to your MySQL database (e.g., database name, user credentials).
 
 ### 2. Python & Required Libraries
 Ensure Python is installed on your machine along with the following libraries:
