@@ -119,6 +119,3 @@ Contributions are welcome! If you'd like to help improve this project, please fo
 
 This project is licensed under the MIT License.
 
----
-
-This version includes the GitHub markdown style for headings, lists, and code blocks. It also adds the `.bat` file for easier execution.
