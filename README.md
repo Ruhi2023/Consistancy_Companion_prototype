@@ -15,7 +15,7 @@ To run this project successfully, please ensure the following dependencies are i
 - Install MySQL and MySQL Workbench to handle the database for tracking progress and storing ideas.
 - **Installation Guide:**
   - Visit [MySQL Workbench Download](https://dev.mysql.com/downloads/workbench/) and download the installer suitable for your OS.
-  - Follow the installation steps provided by the installer.
+  - Follow the installation steps provided by the installer or you can use [this link](https://docs.appspace.com/latest/how-to/setup-mysql-with-mysql-workbench/#:~:text=Launch%20the%20MySQL%20Workbench%20from,password%20in%20vault%20check%20box.).
   - Once installed, configure your MySQL Workbench connection by setting up a new MySQL server instance.
 - **Adjustments:**
   After setting up MySQL, make necessary adjustments in the `Consistancy_tables.py` file to ensure it connects to your MySQL database (e.g., database name, user credentials).
